@@ -35,7 +35,11 @@ if(cars == 0) {
 	JOptionPane.showMessageDialog(null, "You should buy a Honda Civic Si");
 }
 if(cars == 1) {
-	JOptionPane.showMessageDialog(null, "Is it a white Honda Prelude VTEC with Cosmis Racing Wheels, a five lug conversion, a Mishomoto ratator, etc...yes it is");
+	JOptionPane.showMessageDialog(null, "Is it a white Honda Prelude 4th gen");
+	
 }
+String school = JOptionPane.showInputDialog("What's the name of your school?");
+JOptionPane.showMessageDialog(null, school + " is a good school.");
+
 }
 }
