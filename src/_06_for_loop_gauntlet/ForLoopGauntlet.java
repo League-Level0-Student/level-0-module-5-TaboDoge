@@ -42,17 +42,15 @@ for(int c = 0; c < 9; c++) {
 	
 }
 }
+
 //1
 for(int b = 0; b < 10; b++, b++, b++) {
 	if (b >= 0 & b < 4) {
 	System.out.println(0);
 	}
 	else if (b > 3 & b < 7) {
-	System.out.print(0);
 	System.out.println(1);
-	System.out.print(1);
 	System.out.println(1);
-	System.out.print(2);
 	System.out.println(1);
 	
 	}
@@ -80,6 +78,9 @@ for(int u = 0; u < 101; u++) {
 	if(u%10==0) {
 		System.out.println();
 	}
+}
+for(int d =0; d != 101; d++) {
+	System.out.println(100-d);
 }
 }
 }
