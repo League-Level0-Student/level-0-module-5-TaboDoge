@@ -1,5 +1,9 @@
 package _06_for_loop_gauntlet;
 
+
+
+//finish challenge 4
+
 public class ForLoopGauntlet {
 public static void main(String[] args) {
 for(int i = 0; i < 101; i++) {
@@ -42,22 +46,35 @@ for(int c = 0; c < 9; c++) {
 	
 }
 }
+System.out.println();
 
 //1
-for(int b = 0; b < 10; b++, b++, b++) {
-	if (b >= 0 & b < 4) {
-	System.out.println(0);
-	}
-	else if (b > 3 & b < 7) {
-	System.out.println(1);
-	System.out.println(1);
-	System.out.println(1);
+for(int q = 0; q < 6; q++) {
+
+	for(int m = 0; m < 3; m++) {
 	
-	}
-	else {
-		System.out.println("2");
-		System.out.println("2");
-		System.out.println("2");
+		
+		
+		if(q<1 & m < 3) {
+			
+			System.out.print(0);
+			System.out.println(m);
+			 
+			
+		}
+		if(q> 1 & q <= 2) {
+			System.out.print(1);
+			System.out.println(m);
+		}
+		 if (q ==3) {
+			System.out.print(2);
+			System.out.println(m);
+				 
+		 }
+		
+		
+			
+	
 	}
 }
 //2
@@ -79,8 +96,20 @@ for(int u = 0; u < 101; u++) {
 		System.out.println();
 	}
 }
+//4
+
+for(int p = 1; p != 6; p++) {
+for(int j = 0; j < p; j++) {
+	System.out.println("*");
+}
+}
+
+
+
+
 for(int d =0; d != 101; d++) {
 	System.out.println(100-d);
 }
+
 }
 }
